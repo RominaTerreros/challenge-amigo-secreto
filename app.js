@@ -14,7 +14,7 @@ function agregarAmigo() {
         amigos.push(amigo);
         console.log(amigos);
         limpiarCaja();
-        asignarTextoElemento('li',amigo);
+        asignarTextoElemento('li',amigos);
     } else {
         alert("Por favor, inserte un nombre.");
     }
