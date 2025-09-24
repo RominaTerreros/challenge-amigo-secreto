@@ -13,7 +13,8 @@ function mostrarListaAmigos() {
     let lista = document.getElementById('listaAmigos');
 
     //Limpiar la lista 
-
+    lista.innerHTML = "";
+    
     for (let i = 0; i < amigos.length; i++) {
         let amigo = amigos[i];
         //Agregar elementos a la lista
